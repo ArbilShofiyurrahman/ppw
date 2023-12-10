@@ -165,7 +165,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../intro.html">
-                    Welcome to your Jupyter Book
+                    Penambangan Dan Pencarian Web
                 </a>
             </li>
         </ul>
@@ -457,11 +457,11 @@ terutama jumlah dan kualitas tautan yang mengarah ke halaman tersebut.</p>
 </section>
 <section id="algoritma-pagerank">
 <h1><span class="math notranslate nohighlight">\(Algoritma\)</span> <span class="math notranslate nohighlight">\(PageRank\)</span><a class="headerlink" href="#algoritma-pagerank" title="Permalink to this heading">#</a></h1>
-<p>#1. Inisialisasi Nilai PageRank:</p>
+<p>##1. Inisialisasi Nilai PageRank:</p>
 <p>Setiap halaman web diberikan nilai PageRank awal, biasanya sama untuk semua halaman atau dapat diatur secara manual.</p>
-<p>#2  Iterasi:</p>
+<p>##2  Iterasi:</p>
 <p>PageRank dihitung secara iteratif. Proses ini berulang hingga konvergensi, di mana perubahan nilai PageRank antara iterasi menjadi sangat kecil.</p>
-<p>#3  Perhitungan Nilai PageRank:</p>
+<p>##3  Perhitungan Nilai PageRank:</p>
 <p>Nilai PageRank halaman
 <span class="math notranslate nohighlight">\(\text{i}\)</span> pada iterasi <span class="math notranslate nohighlight">\(\text{t+1}\)</span> dihitung berdasarkan nilai PageRank halaman  <span class="math notranslate nohighlight">\(\text{i}\)</span> pada iterasi  <span class="math notranslate nohighlight">\(\text{t}\)</span> dan kontribusi dari halaman-halaman lain yang terhubung ke halaman tersebut.</p>
 <p>Rumus PageRank dapat dituliskan sebagai berikut:</p>
@@ -473,7 +473,7 @@ terutama jumlah dan kualitas tautan yang mengarah ke halaman tersebut.</p>
 <p><span class="math notranslate nohighlight">\(N\)</span> adalah jumlah total halaman dalam graf</p>
 <p><span class="math notranslate nohighlight">\(B_u\)</span> adalah himpunan halaman yang menghubungi <span class="math notranslate nohighlight">\(u\)</span> (mengandung tautan ke <span class="math notranslate nohighlight">\(u\)</span>)</p>
 <p><span class="math notranslate nohighlight">\(L(v)\)</span> adalah jumlah tautan keluar dari halaman <span class="math notranslate nohighlight">\(v\)</span>.</p>
-<p>#4  Iterasi Berlanjut:</p>
+<p>##4  Iterasi Berlanjut:</p>
 <p>Langkah 3 diulangi sampai nilai PageRank konvergen atau perubahan antar iterasi menjadi sangat kecil.
 Faktor damping <span class="math notranslate nohighlight">\(d\)</span> diperkenalkan untuk mengatasi masalah ketidakseimbangan dalam struktur tautan yang dapat menyebabkan iterasi tak hingga atau konvergensi yang lambat.</p>
 </section>
